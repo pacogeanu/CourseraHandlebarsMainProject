@@ -1,18 +1,29 @@
 # CourseraHandlebarsMainProject
 Coursera Project - Mainly a project meant to learn handlebars library
+
 Description of the instructions:
+In this peer assessment you will be making a web site that is created from data. We will provide you some JavaScript code that creates a complex data structure and you should create a website to display that data. You should use templates to display the data and the layout of your site should be appropriate to the data. You should provide suitable navigation and it should always be clear where users are, where they can go and what they can do.
 
-In this exercise you will design and build a task list website using your HTML and CSS skills.
+For this assessment you should create a data driven website that uses html, css, JavaScript and templates to display some data. This data will be some creative commons material taken from wikipedia about different animals.
 
-You are to design a website that presents a set of tasks to its users. An example of a task is ‘do the shopping’. The website should be implemented using static content for the tasks, i.e. it does not need to be data driven as that is covered in later modules.
+You can find a zip file here that contains everything you need to start:
 
-There should be 3 pages on the site:
-A landing page that presents a list of tasks to the user. Tasks can be be finished or not finished. Every task in the list links to the same task page.
-A task page that presents the details of a single task to the user. Tasks have a title, a description and a person associated with them. You should display that person somehow (e.g. their name, a picture, etc.). It is ok for all the tasks on the landing page to link to the same task detail page, as this is just an example of how a task looks.
-An ‘about’ page that explains what the site is for.
-The pages on the site should have the following features:
-Clear navigation allowing the user to move between pages.
-Consistent style across the pages.
-Responsive layout where the layout changes depending on the size of the browser window.
-Clearly stated purpose for each page.
-Use the bootstrap library.
+the JavaScript and css libraries you might need (jquery, bootstrap, handlebars)
+empty JavaScript and CSS files to put your code in
+a HTML file with a head that imports the libraries, JavaScript and css files and an empty body to put your HTML code in
+a JavaScript file called AnimalsData.js which contains the data you will be displaying
+AnimalsData.js contains a single variable called “animals_data”. This variable is an object that contains an array called “category”. Each element in the array represents a class of animals (reptiles, mammals, birds) and it contains a name and another array called “animals” which contains objects representing species of animal. Each object has the following member variables:
+name; the name of the species
+description: a textual description of the species
+image1: an image of an example of the species
+image2: a second, alternative, image
+You should create the following:
+
+A HTML file containing the structures of your page, including templates designed to display the data
+A JavaScript file that maps the data onto the templates and provides any interactivity
+A CSS file that styles the web site (you may optionally use bootstrap).
+The layout of the site should be appropriate to the data and display it in a clear and understandable way. It should provide suitable navigation functions and the overall layout and design should reflect the guidelines we have described in this MOOC.
+
+You should submit a zip file containing everything you need to run the website, including the original data file, an html file, a css file and a JavaScript file, as well as any images and other files you need (including JavaScript libraries such as jquery, handlebars and bootstrap.
+
+You are required to review 3 of your peers in order to receive a grade.
